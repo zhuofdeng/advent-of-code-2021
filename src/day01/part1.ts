@@ -9,7 +9,7 @@ export function part1(input: string): number {
     if (currentDepth > previousDepth && previousDepth > 0) {
       count ++;
     }
-    previousDepth = parseInt(depth)
+    previousDepth = currentDepth;
   });
   return count;
 }
