@@ -1,5 +1,6 @@
 // Advent of Code - Day 3 - Part One
-import { parseInput, convertBinaryToDecimal } from "../utils";
+import { parseInput} from "./utils";
+import { convertBinaryToDecimal } from "../utils";
 
 const getGammaBit = (input: string[], index: number): number => {
   let onBit = 0;

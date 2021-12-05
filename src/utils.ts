@@ -1,7 +1,3 @@
-export const parseInput = (input: string): string[] => {
-    return input.split('\n');
-}
-
 export const convertBinaryToDecimal = (binary: number[]): number => {
   let number = 0;
   binary.forEach((value, index) => {

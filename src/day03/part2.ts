@@ -1,6 +1,6 @@
 // Advent of Code - Day 3 - Part Two
-
-import { convertBinaryToDecimal, parseInput } from "../utils";
+import { parseInput} from "./utils";
+import { convertBinaryToDecimal } from "../utils";
 
 const getMostCommonBit = (values: string[], index: number, wildCard: number) => {
   let onBit = 0;
