@@ -15,14 +15,6 @@ export class LineSegment {
         return [this._point1[1], this._point2[1]];
     }
 
-    getMaxX() {
-        return Math.max(this._point1[0], this._point2[0]);
-    }
-
-    getMaxY() {
-        return Math.max(this._point1[1], this._point2[1]);
-    }
-
     getPointsOnTheLine() {
         const points = [];
         let incrementX = this.x[0] > this.x[1] ? -1 : 1;

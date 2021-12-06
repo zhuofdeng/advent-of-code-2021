@@ -8,13 +8,9 @@ export function part1(input: string): number {
   const pointsMap: Map<string, number> = new Map()
   let totalOverlap = 0;
   const lineSegments: LineSegment[] = [];
-  let maxX = 0;
-  let maxY = 0;
   linesData.forEach((line) => {
     const lineSegment = new LineSegment(line);
     lineSegments.push(lineSegment);
-    maxX = Math.max(lineSegment.getMaxX(), maxX);
-    maxY = Math.max(lineSegment.getMaxY(), maxY);
   });
 
   lineSegments.forEach((lineSegment) => {
