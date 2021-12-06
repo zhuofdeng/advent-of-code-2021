@@ -6,3 +6,7 @@ export const convertBinaryToDecimal = (binary: number[]): number => {
 
   return number;
 }
+
+export const splitInputByNewLine = (input: string): string[] => {
+  return input.split('\n');
+}
