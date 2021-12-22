@@ -10,3 +10,7 @@ export const convertBinaryToDecimal = (binary: number[]): number => {
 export const splitInputByNewLine = (input: string): string[] => {
   return input.split('\n');
 }
+
+export const gauss = (n: number) => {
+  return (n * (n+1)) / 2;
+}
